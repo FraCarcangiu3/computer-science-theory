@@ -1,0 +1,255 @@
+/* === CSS VARIABLES DEFINITION ===
+   CSS variables allow defining values that can be 
+   reused throughout the stylesheet */
+:root {
+    --primary-blue: #3498db;   /* Primary color for buttons and accents */
+    --dark-blue: #2c3e50;      /* Secondary color for header and titles */
+    --red: #e74c3c;            /* Color for dangerous actions (e.g. delete) */
+    --text-color: #333;        /* Main text color */
+    --light-background: #f9f9f9; /* Page background color */
+    --white: #ffffff;          /* White color for foreground elements */
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /* Shadow effect for elements */
+    --border-radius: 8px;      /* Radius for rounded corners */
+}
+
+/* === RESET OF BROWSER DEFAULT STYLES ===
+   Removes default margins and spacing to ensure consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /* Makes padding and borders included in dimensions */
+}
+
+/* === PAGE BODY STYLE === */
+body {
+    font-family: Arial, Helvetica, sans-serif;  /* Sans-serif font for better readability */
+    line-height: 1.6;  /* Text line height to improve readability */
+    color: var(--text-color);  /* Main text color */
+    background-color: var(--light-background);  /* Page background color */
+    padding-bottom: 2rem;  /* Bottom page spacing */
+}
+
+/* === HEADER STYLE === */
+header {
+    background-color: var(--dark-blue);  /* Header background color */
+    color: var(--white);  /* Text color in header */
+    text-align: center;  /* Center text alignment */
+    padding: 1.5rem 0;  /* Internal spacing above and below */
+    margin-bottom: 2rem;  /* Spacing below the header */
+    box-shadow: var(--shadow);  /* Shadow effect for depth */
+}
+
+/* Main title in header */
+h1 {
+    font-size: 2.5rem;  /* Main title font size */
+    margin-bottom: 0.5rem;  /* Spacing below the title */
+}
+
+/* Subtitle in header */
+.subtitle {
+    font-size: 1.2rem;  /* Subtitle font size */
+}
+
+/* === MAIN CONTAINER ===
+   Limits content width and centers it on the page */
+.container {
+    max-width: 1200px;  /* Maximum content width */
+    margin: 0 auto;  /* Centers the container horizontally */
+    padding: 0 1.5rem;  /* Internal lateral spacing */
+}
+
+/* === SECTIONS STYLE === */
+section {
+    background-color: var(--white);  /* White background for sections */
+    border-radius: var(--border-radius);  /* Rounded corners */
+    box-shadow: var(--shadow);  /* Shadow effect for depth */
+    padding: 1.5rem;  /* Internal spacing */
+    margin-bottom: 2rem;  /* Spacing below the section */
+}
+
+/* Section title with dividing line */
+.section-title {
+    color: var(--dark-blue);  /* Title text color */
+    border-bottom: 2px solid var(--primary-blue);  /* Dividing line below the title */
+    padding-bottom: 0.5rem;  /* Spacing below the title */
+    margin-bottom: 1.5rem;  /* Margin below the title */
+    display: flex;  /* Flexible layout to align elements */
+    justify-content: space-between;  /* Distributes space between title and buttons */
+    align-items: center;  /* Vertically aligns elements */
+}
+
+/* Buttons in the section title */
+.section-title button {
+    font-size: 0.85rem;  /* Button font size */
+}
+
+/* === BOOKS TABLE STYLE === */
+table {
+    width: 100%;  /* Takes up all available width */
+    border-collapse: collapse;  /* Merges adjacent table borders */
+    margin-bottom: 1.5rem;  /* Spacing below the table */
+}
+
+/* Header and data cells */
+th, td {
+    padding: 0.75rem;  /* Internal cell spacing */
+    text-align: left;  /* Left text alignment */
+    border-bottom: 1px solid #e0e0e0;  /* Dividing line below each row */
+}
+
+/* Header cells */
+th {
+    background-color: #f2f8fd;  /* Background color for headers */
+    font-weight: bold;  /* Bold text */
+}
+
+/* Hover effect on table rows */
+tr:hover {
+    background-color: #f5f5f5;  /* Changes color when mouse hovers over */
+}
+
+/* Container for action buttons in the table */
+.book-actions {
+    display: flex;  /* Flexible layout for buttons */
+    gap: 0.5rem;  /* Space between buttons */
+}
+
+/* === REVIEWS STYLE === */
+/* Review stars */
+.stars {
+    color: #ffc107;  /* Yellow color for stars (reviews) */
+    font-size: 1.2rem;  /* Stars size */
+}
+
+/* Style for when there's no review */
+.no-review {
+    color: #ccc;  /* Light gray color */
+    font-style: italic;  /* Italic text */
+}
+
+/* === FORM STYLE === */
+form {
+    display: grid;  /* Grid layout to organize form fields */
+    grid-template-columns: 1fr 1fr;  /* Two columns of equal width */
+    gap: 1rem;  /* Space between form elements */
+}
+
+/* Elements that should occupy the entire width of the form */
+form .full-width {
+    grid-column: 1 / -1;  /* From first to last column */
+}
+
+/* Form field labels */
+label {
+    display: block;  /* Makes labels block elements (one below the other) */
+    font-weight: bold;  /* Bold text */
+    margin-bottom: 0.3rem;  /* Space below the label */
+    color: var(--dark-blue);  /* Text color */
+}
+
+/* Input and select fields */
+input, select {
+    width: 100%;  /* Takes up all available width */
+    padding: 0.7rem;  /* Internal spacing */
+    border: 1px solid #ddd;  /* Thin gray border */
+    border-radius: var(--border-radius);  /* Rounded corners */
+    font-size: 1rem;  /* Text size */
+}
+
+/* Style for fields when they have focus (are selected) */
+input:focus, select:focus {
+    border-color: var(--primary-blue);  /* Changes border color */
+    outline: none;  /* Removes browser's default outline */
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);  /* Adds a thin shadow */
+}
+
+/* === BUTTONS STYLE === */
+button {
+    padding: 0.7rem 1.2rem;  /* Internal spacing */
+    background-color: var(--primary-blue);  /* Background color */
+    color: var(--white);  /* Text color */
+    border: none;  /* Removes border */
+    border-radius: var(--border-radius);  /* Rounded corners */
+    cursor: pointer;  /* Changes cursor when hovering over */
+    font-weight: bold;  /* Bold text */
+}
+
+/* Hover effect on buttons */
+button:hover {
+    background-color: #2980b9;  /* Darker color when mouse hovers over */
+}
+
+/* Secondary buttons (less important) */
+button.secondary {
+    background-color: #95a5a6;  /* Gray background color */
+}
+
+button.secondary:hover {
+    background-color: #7f8c8d;  /* Darker color when mouse hovers over */
+}
+
+/* Delete buttons (dangerous actions) */
+button.delete {
+    background-color: var(--red);  /* Red background color */
+}
+
+button.delete:hover {
+    background-color: #c0392b;  /* Darker color when mouse hovers over */
+}
+
+/* === STAR RATING SYSTEM === */
+.rating {
+    display: flex;  /* Flexible layout for stars */
+    gap: 0.3rem;  /* Space between stars */
+}
+
+.star {
+    cursor: pointer;  /* Changes cursor when hovering over */
+    font-size: 1.5rem;  /* Stars size */
+    color: #ddd;  /* Light gray color (inactive stars) */
+}
+
+.star.selected, .star:hover {
+    color: #ffc107;  /* Yellow color (active stars or hover) */
+}
+
+/* Alert message */
+.alert {
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.alert.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    form {
+        grid-template-columns: 1fr;
+    }
+
+    .book-actions {
+        flex-direction: column;
+    }
+}
+
+/* Footer style */
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+} 
