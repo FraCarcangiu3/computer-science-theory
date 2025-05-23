@@ -1,3 +1,0 @@
-fastapi[standard] #pip install fastapi[standard]
-requests #pip install requests
-aiofiles==24.1.0 #pip install aiofiles==24.1.0
