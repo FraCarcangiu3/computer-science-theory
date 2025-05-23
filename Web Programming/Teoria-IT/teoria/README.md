@@ -133,7 +133,7 @@
         - Gli utenti nel gruppo **developers** possono solo **leggere**.
         - Tutti gli altri utenti possono solo **leggere**.
         
-        ![image.png](PROGRAMMAZIONE WEB/image.png)
+        ![[image.png]](PROGRAMMAZIONE WEB/image.png)
         
     - base git e github
         
