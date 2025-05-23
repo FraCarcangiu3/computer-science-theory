@@ -133,7 +133,7 @@
         - Gli utenti nel gruppo **developers** possono solo **leggere**.
         - Tutti gli altri utenti possono solo **leggere**.
         
-        ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image.png)
+        ![image.png](PROGRAMMAZIONE%20WEB%/image.png)
         
     - base git e github
         
@@ -335,7 +335,7 @@
             <https://www.esempio.com/pagina.html>
             ```
             
-            ![Screenshot 2025-03-13 alle 17.57.39.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/Screenshot_2025-03-13_alle_17.57.39.png)
+            ![Screenshot 2025-03-13 alle 17.57.39.png](PROGRAMMAZIONE%20WEB%/Screenshot_2025-03-13_alle_17.57.39.png)
             
     - Dialogo tra client e server e RESTful API
         
@@ -377,7 +377,7 @@
         - Dopo che il client manda la richiesta il server accetta la connessione, manda la risposta (ACK), e chiude la connessione.
         - La porta 80 è la porta dove comunicano i browser.
         
-        ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image%201.png)
+        ![image.png](PROGRAMMAZIONE%20WEB%/image%201.png)
         
         ---
         
@@ -401,7 +401,7 @@
         - **Compressione degli header**: riduce la dimensione dei dati trasmessi.
         - **Push lato server**: il server può inviare dati al client prima che vengano richiesti.
         
-        ![Screenshot 2025-03-16 alle 12.09.48.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/Screenshot_2025-03-16_alle_12.09.48.png)
+        ![Screenshot 2025-03-16 alle 12.09.48.png](PROGRAMMAZIONE%20WEB%/Screenshot_2025-03-16_alle_12.09.48.png)
         
     - Sessioni Web
         
@@ -411,7 +411,7 @@
         
         - **`GET`**: Richiede una risorsa senza modificarla. Usata per prendere informazioni.
         
-        ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image%202.png)
+        ![image.png](PROGRAMMAZIONE%20WEB%/image%202.png)
         
         - **`POST`**: Invia dati al server (es. compilazione di un modulo). Usata per inviare inforrmazioni. 
         I dettagli della risorsa sono contenuti nel body del messaggio. Non ha limiti di lunghezza per i parametri e il message body può essere cifrato
@@ -526,7 +526,7 @@
         
     - Elementi di base - **Eccezioni** ⚠️
         
-        ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image%203.png)
+        ![image.png](PROGRAMMAZIONE%20WEB%/image%203.png)
         
     - Elementi di base - **Attributi**
         - Forniscono informazioni aggiuntive sugli elementi HTML tramite coppie chiave-valore, con il valore racchiuso tra apici (singoli o doppi).
@@ -541,11 +541,11 @@
         - **Elementi essenziali**
             - `<!DOCTYPE>`: Specifica il tipo di documento e il DTD (Document Type Definition) per le regole di interpretazione.
                 
-                ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image%204.png)
+                ![image.png](PROGRAMMAZIONE%20WEB%/image%204.png)
                 
             - `<html>`: Elemento radice che specifica al browser che la pagina sarà formattata in HTML,  può includere l’attributo `lang` per indicare la lingua.
                 
-                ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image%205.png)
+                ![image.png](PROGRAMMAZIONE%20WEB%/image%205.png)
                 
             - `<head>`: L’header (delimitato dal tag <head>) contiene i metadati per il documento, che non sono visualizzati all’interno del documento (ma alcuni impostano visualizzazioni particolari nel browser)
             - Il tag `<title>` è un esempio di questi metadati, e specifica il titolo della pagina che sarà mostrato nella testata della finestra o tab del browser
@@ -555,7 +555,7 @@
                 - `<script>` codice eseguibile utilizzato dal documento (solitamente JavaScript)
                 - `<style>` informazioni di stile (CSS locali)
             
-            ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image%206.png)
+            ![image.png](PROGRAMMAZIONE%20WEB%/image%206.png)
             
             - `<body>`: Contiene il contenuto visibile (intestazioni, paragrafi, liste, tabelle, moduli, link, immagini, etc.).
                 
@@ -576,7 +576,7 @@
                 - Può essere reso visibile o stilizzato tramite CSS.
                 Se non viene associato uno stile (per esempio un background) è invisibile
                     
-                    ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image%207.png)
+                    ![image.png](PROGRAMMAZIONE%20WEB%/image%207.png)
                     
             - **`<span>`**
                 - Contenitore generico che può essere annidato.
@@ -590,7 +590,7 @@
                 - **Source anchor** (ancora sorgente) **→ destination anchor** (ancora destinazione)
                 - Il **source anchor è contenuto nella pagina di partenza**, mentre **il destination anchor è un’altra risorsa web**
                 
-                ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image%208.png)
+                ![image.png](PROGRAMMAZIONE%20WEB%/image%208.png)
                 
             - `URL` Relativi e Assoluti
                 - Gli **URL assoluti** contengono direttamente il link completo per la nuova risorsa
@@ -623,7 +623,7 @@
             
         - Contenuti dell’HTML: **header, paragrafi, liste puntate**
             
-            ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image%209.png)
+            ![image.png](PROGRAMMAZIONE%20WEB%/image%209.png)
             
             ```html
             <body>
@@ -665,7 +665,7 @@
                 </div>
             ```
             
-            ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image%2010.png)
+            ![image.png](PROGRAMMAZIONE%20WEB%/image%2010.png)
             
         - Contenuti dell’HTML: **menu a tendina e link**
             
@@ -686,7 +686,7 @@
             </html>
             ```
             
-            ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image%2011.png)
+            ![image.png](PROGRAMMAZIONE%20WEB%/image%2011.png)
             
         - CODICE TOTALE
             
@@ -749,7 +749,7 @@
         - La pagina HTML viene interpretata come una struttura ad albero (DOM), in cui l’elemento `<html>` è la radice.
         - Il DOM permette la manipolazione dinamica degli elementi tramite script.
             
-            ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image%2012.png)
+            ![image.png](PROGRAMMAZIONE%20WEB%/image%2012.png)
             
 - Introduzione e Uso dei **`CSS`**
     - Cos’è il CSS (Cascading Style Sheets)
@@ -785,7 +785,7 @@
             - Poi creiamo un altro file, chiamato “**styles.css”**, e lo mettiamo nella stessa cartella
             - Questo definisce gli stili per gli elementi dell’HTML
         
-        ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/446901f5-1114-4b5f-befd-a36cbf4fee04.png)
+        ![image.png](PROGRAMMAZIONE%20WEB%/446901f5-1114-4b5f-befd-a36cbf4fee04.png)
         
 - Sintassi, Regole e Specificità dei **`CSS`**
     - Struttura di una Regola CSS
@@ -804,7 +804,7 @@
         
         ```
         
-        ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image%2013.png)
+        ![image.png](PROGRAMMAZIONE%20WEB%/image%2013.png)
         
     - Selettori Avanzati:
         
@@ -812,11 +812,11 @@
         
         - Specifici elementi si identificano nell’HTML tramite l’attributo **`id=“nome_id”`**
             
-            ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image%2014.png)
+            ![image.png](PROGRAMMAZIONE%20WEB%/image%2014.png)
             
         - Si identificano nell’HTML tramite l’attributo **`class=“nome_classe”`**
             
-            ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image%2015.png)
+            ![image.png](PROGRAMMAZIONE%20WEB%/image%2015.png)
             
         - Ci sono poi ulteriori costrutti come le pseudoclassi (es. link visitati o hover) e pseudo elementi (es. la prima linea o la prima lettera di un paragrafo)
     - Unità di Misura:
@@ -1764,7 +1764,7 @@
     - **Frontend:** Il layer di presentazione.
     - **Backend:** Il layer che gestisce l’accesso ai dati.
     
-    ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image%2016.png)
+    ![image.png](PROGRAMMAZIONE%20WEB%/image%2016.png)
     
     La comunicazione tra questi layer avviene tramite API, che fungono da interfacce specifiche. Inoltre, vengono illustrati diversi approcci per iniziare la progettazione di un web server:
     
@@ -1988,7 +1988,7 @@
     
     Fino al service layer in genere e python mentre il web layer è html…
     
-    ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image%2017.png)
+    ![image.png](PROGRAMMAZIONE%20WEB%/image%2017.png)
     
     ---
     
@@ -2635,7 +2635,7 @@
     
 - Quando usare: DB Relazionali e DB NON Relazionali
     
-    ![image.png](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/image%2018.png)
+    ![image.png](PROGRAMMAZIONE%20WEB%/image%2018.png)
     
 - 📚 **Esercizi Base** su SQL
     
@@ -3660,15 +3660,15 @@ APPUNTI DA FINIRE DOPO LA LEZIONE
     
     Clona, configura il `.env` locale e lancia `docker-compose up` per sperimentare un deployment multi‑container in azione .
     
-    ![IMG_0574.HEIC](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/IMG_0574.heic)
+    ![IMG_0574.HEIC](PROGRAMMAZIONE%20WEB%/IMG_0574.heic)
     
-    ![IMG_0575.HEIC](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/IMG_0575.heic)
+    ![IMG_0575.HEIC](PROGRAMMAZIONE%20WEB%/IMG_0575.heic)
     
     - se digito [localhost:8001](http://localhost:8001) vedo la get del server1
     - se digito [localhost:800](http://localhost:8001)2 vedo la get del server3
 
 ---
 
-[LABORATORIO P.WEB](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/LABORATORIO%20P%20WEB%201c79a6c97cf980598c52eddf18243b81.md)
+[LABORATORIO P.WEB](PROGRAMMAZIONE%20WEB%/LABORATORIO%20P%20WEB%201c79a6c97cf980598c52eddf18243b81.md)
 
-[PYTHON CORSO RAPIDO](PROGRAMMAZIONE%20WEB%201af9a6c97cf98039a6e0cd1e9e9bb7af/PYTHON%20CORSO%20RAPIDO%201bc9a6c97cf980e6a7e8e4a5aef5bcbd.md)
+[PYTHON CORSO RAPIDO](PROGRAMMAZIONE%20WEB%/PYTHON%20CORSO%20RAPIDO%201bc9a6c97cf980e6a7e8e4a5aef5bcbd.md)
